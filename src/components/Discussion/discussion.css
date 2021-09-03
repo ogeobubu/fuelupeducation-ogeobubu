@@ -1,0 +1,90 @@
+.discussion {
+  flex: 3;
+  height: 100%;
+  background-color: white;
+  color: #111;
+  padding-top: 1.4rem;
+  padding-left: 1rem;
+  padding-right: 0;
+  padding-bottom: 2rem;
+  border-radius: 20px;
+  margin-right: 2rem;
+}
+
+.discussContainer {
+  max-width: 95%;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.convo {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.msg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.discussCenter {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.userImage {
+  position: relative;
+}
+
+.userImage .onlinePresence {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: #2da231;
+}
+
+.userImage .onlinePresenceOff {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: #f16600;
+  border-radius: 50%;
+}
+
+.messageInfo {
+  margin-left: 1rem;
+}
+
+.messageInfo h3 {
+  font-size: 1rem;
+}
+
+.messageInfo p {
+  font-size: 14px;
+}
+
+.messageInfo > p:last-child {
+  font-size: 13px;
+  font-weight: 200;
+  margin-top: 0.3rem;
+}
+
+.notifyMessages {
+  background-color: #f16600;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}

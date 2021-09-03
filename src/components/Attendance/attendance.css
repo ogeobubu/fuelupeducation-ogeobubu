@@ -1,0 +1,113 @@
+.attendance {
+  background-color: white;
+  color: #111;
+  padding: 2rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+
+  margin-left: 1rem;
+}
+
+.attendLeft h2 {
+  margin-bottom: 1rem;
+}
+
+.attendLeft span {
+  font-size: 1.8rem;
+  color: #47ad4a;
+  margin-left: 0.5rem;
+  font-weight: 500;
+}
+
+.attendanceButton {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #380885;
+  padding: 0.7rem 1.8rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn {
+  background: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.attendCenter {
+  margin-right: 1rem;
+}
+
+.outerCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ffb729;
+  color: white;
+}
+
+.innerCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.attendRight ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.attendRight li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.attendRight span {
+  margin-right: 0.5rem;
+}
+
+.present {
+  background-color: #217824;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.absent {
+  background-color: #ff0505;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.late {
+  background-color: #ffb729;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.excused {
+  background-color: #50abf1;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}

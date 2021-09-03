@@ -1,0 +1,41 @@
+.note {
+  background-color: white;
+  color: #111;
+  padding-top: 1.4rem;
+  padding-left: 1rem;
+  padding-right: 0;
+  padding-bottom: 2rem;
+  border-radius: 20px;
+  height: 60%;
+  width: 100%;
+}
+
+.note .top {
+  margin-bottom: 1rem;
+}
+
+.noteCenter {
+  display: flex;
+  flex-direction: column;
+}
+
+.fileType {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fileType p {
+  margin-left: 0.5rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.fileDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 0;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}

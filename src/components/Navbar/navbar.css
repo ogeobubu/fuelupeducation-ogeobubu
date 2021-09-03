@@ -1,0 +1,88 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right .navlinks ul {
+  display: flex;
+}
+
+.right .navlinks li {
+  list-style: none;
+  margin-right: 2.5rem;
+  cursor: pointer;
+  color: #370d81;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.notify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notificationBell {
+  position: relative;
+  margin-right: 1rem;
+}
+
+.bell {
+  font-size: 2.5rem !important;
+  color: #d3d2d5;
+  cursor: pointer;
+}
+
+.notificationBadge {
+  position: absolute;
+  background-color: #370d81;
+  color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0.5rem;
+  padding: 0.5rem;
+}
+
+.setting {
+  font-size: 2.5rem !important;
+  color: #d3d2d5;
+  cursor: pointer;
+}
+
+.profileContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.woman {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.onlinePresence {
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+  background-color: #217824;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}

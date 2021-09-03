@@ -1,0 +1,51 @@
+.instructors {
+  background-color: white;
+  color: #4d4d4d;
+  padding-top: 1.4rem;
+  padding-left: 1rem;
+  padding-right: 0;
+  padding-bottom: 2rem;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.carousel {
+  display: flex;
+}
+.instructor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+.instructorDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.instructorDetail h3 {
+  margin-top: 0.5rem;
+  font-weight: 300;
+}
+
+.instructorDetail p {
+  font-size: 13px;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+.instructorImage {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.instructorLinkedIn span {
+  color: #f16600;
+  cursor: pointer;
+}

@@ -1,0 +1,83 @@
+.exams {
+  width: 450px;
+  height: 450px;
+  background-color: white;
+  color: #111;
+  padding-top: 1.4rem;
+  padding-left: 1rem;
+  padding-right: 0;
+  padding-bottom: 2rem;
+  border-radius: 20px;
+  margin-left: 2rem;
+}
+
+.examsContainer {
+  height: 100%;
+}
+
+.examsFlex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.examsCenter {
+  margin-bottom: 2rem;
+}
+
+.exams .top h2 {
+  display: flex;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
+.examsCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.examsCenter .outerChart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #3b0e8a;
+}
+
+.examsCenter .innerChart {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.examsBottom ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.examsBottom ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.examsBottom ul li span {
+  margin-right: 0.5rem;
+}
+
+.ongoing {
+  background-color: #d1d6ff;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}

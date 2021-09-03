@@ -1,0 +1,24 @@
+.welcome {
+  margin-top: 1rem;
+  width: 60%;
+}
+
+.welcomeUser {
+  background-color: #380885;
+  color: white;
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+.welcomeText {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+
+.welcomeText h2 {
+  margin-bottom: 1rem;
+  font-weight: 400;
+}

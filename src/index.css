@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 95%;
+  width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.third {
+  display: flex;
+}
+
+body {
+  background-color: #faf9fe;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
